@@ -5,6 +5,7 @@ const challenge = () => {
     for (let i = 1; i <= 100; i++) {
         result.push(format(i))
     }
+    console.log(result)
     return result
 }
 
